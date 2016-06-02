@@ -1,0 +1,27 @@
+to start git locally: 
+	cd <file path>
+	git init
+	git add .
+	git commit -m "msg"
+
+
+to set up remote repo: 
+	*create a repo on github
+	cd <file path>
+	git remote add <alias(typically origin)> <url(from github)>
+	git push -u origin master 		// to push the file up to github
+
+
+to push code: 
+	git push origin master 
+
+
+to pull code: 
+	git pull
+
+
+to all changes: 
+	git add .
+	git commit -m "msg"
+	-----OR-----
+	git commit -am "msg"
